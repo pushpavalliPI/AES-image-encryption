@@ -25,7 +25,7 @@ def decrypt_image(encrypted_image_path, key):
 
 
 # Main program
-image_path = 'image.png'  # Replace with the path to your image
+image_path = 'image.png'  
 key = get_random_bytes(16)  # Generate a random 128-bit (16 bytes) encryption key
 
 print("Encryption Key:", key.hex())
